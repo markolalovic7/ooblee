@@ -1,0 +1,71 @@
+.create-store {
+  margin-top: 2em;
+  .ant-upload-list-picture-card-container {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0;
+  }
+  .ant-upload-list-picture-card
+    .ant-upload-list-item:hover
+    .ant-upload-list-item-info::before {
+    left: 0;
+  }
+  .ant-upload-list-item-progress {
+    display: none;
+  }
+  .ant-upload-list-item-actions {
+    a {
+      display: none;
+    }
+  }
+  .ant-upload-list-picture .ant-upload-list-item,
+  .ant-upload-list-picture-card .ant-upload-list-item {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    padding: 0;
+    .ant-upload-list-item-info {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 2px solid #ff6067;
+    }
+  }
+  .ant-upload.ant-upload-select-picture-card {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0;
+    img {
+      border-radius: 50%;
+      border: 2px solid #ff6067;
+    }
+  }
+  h2 {
+    text-align: left;
+    color: #ff6067;
+    font-size: 18px;
+  }
+  h3 {
+    margin: 10px 0;
+  }
+  .add-location {
+    cursor: pointer;
+    button {
+      border-radius: 50%;
+      width: 32px;
+      margin-bottom: 0;
+      margin-right: 1em;
+    }
+  }
+}
+.w-hours {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 0.5em;
+  label {
+    min-width: 150px;
+  }
+}

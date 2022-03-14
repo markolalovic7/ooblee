@@ -1,0 +1,25 @@
+.profile {
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 0px 1px #ff6067;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+}
+.cart-item {
+  img {
+    width: 80px;
+  }
+  .cart-info {
+    padding: 0 1em;
+    flex: 1 1 auto;
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+.cart-btn {
+  button {
+    width: 100%;
+    margin-top: 1em;
+  }
+}

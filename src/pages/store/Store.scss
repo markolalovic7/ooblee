@@ -1,0 +1,46 @@
+.store-wrapper {
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: white;
+    text-shadow: 0 0 0.25px currentColor;
+  }
+  .ant-tabs-tab-btn:focus,
+  .ant-tabs-tab-remove:focus,
+  .ant-tabs-tab-btn:active,
+  .ant-tabs-tab-remove:active {
+    color: #ff6067;
+  }
+
+  .ant-tabs-ink-bar {
+    background: #ff6067;
+  }
+
+  .ant-tabs-top > .ant-tabs-nav::before,
+  .ant-tabs-bottom > .ant-tabs-nav::before,
+  .ant-tabs-top > div > .ant-tabs-nav::before,
+  .ant-tabs-bottom > div > .ant-tabs-nav::before {
+    border: none;
+  }
+  .ant-tabs-nav-list {
+    transform: translate(0px, 0px);
+    border-radius: 40px;
+    border: 1px solid #ff6067;
+    overflow: hidden;
+  }
+  .ant-tabs-tab {
+    padding: 5px 25px;
+    border-right: 1px solid #ff6067;
+    border-left: 1px solid #ff6067;
+  }
+  .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0;
+  }
+  .ant-tabs-ink-bar {
+    display: none;
+  }
+  .ant-tabs-tab.ant-tabs-tab-active {
+    background-color: #ff6067;
+  }
+  .ant-tabs-tab:hover {
+    color: black;
+  }
+}

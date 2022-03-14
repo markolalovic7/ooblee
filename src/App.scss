@@ -1,0 +1,323 @@
+footer {
+  display: block;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-wrap {
+  flex: 1 1 auto;
+}
+
+footer.footer-menu {
+  display: none;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background: white;
+  svg {
+    font-size: 20px;
+    path {
+      fill: #777777;
+    }
+  }
+  a {
+    color: #777777;
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.ant-menu-horizontal {
+  border: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.block {
+  display: block;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.logo {
+  left: 50%;
+  margin-left: -35px;
+  width: 70px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    color: #4d4d4d;
+    font-weight: bold;
+    font-size: 30px;
+  }
+}
+
+.App-header {
+  background-color: white;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  justify-content: space-between;
+  padding-top: 10px;
+  box-shadow: 0px 0px 2px 0px #33333373;
+  padding-bottom: 10px;
+  z-index: 9;
+  .anticon svg {
+    font-size: 16px;
+  }
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: #ff6067;
+  &:hover {
+    color: #ff6067;
+    opacity: 0.65;
+  }
+}
+
+.ant-btn-link {
+  color: #ff6067;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.primary-color {
+  color: #ff6067;
+}
+
+.back {
+  svg {
+    font-size: 20px;
+    //margin-top: 10px;
+    path {
+      color: #4d4d4d;
+    }
+  }
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+  color: #ff6067;
+  border-bottom: 2px solid #ff6067;
+}
+
+.ant-menu-item:hover,
+.ant-menu-item-active,
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-submenu-active,
+.ant-menu-submenu-title:hover {
+  color: #ff6067;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+  color: #ff6067;
+  border-bottom: 2px solid #ff6067;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+  color: #ff6067;
+  border-bottom: 2px solid #ff6067;
+}
+
+.ant-menu-item:hover,
+.ant-menu-item-active,
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-submenu-active,
+.ant-menu-submenu-title:hover {
+  color: #ff6067;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  background: #ff6067;
+  border-color: #ff6067;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  &:hover {
+    background: #ff6067;
+    border-color: #ff6067;
+    opacity: 0.65;
+  }
+}
+
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border-color: #ff6067;
+  border-right-width: 1px !important;
+}
+
+.ant-btn-primary:active {
+  color: #fff;
+  background: #d43e45;
+  border-color: #d43e45;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+  color: #d43e45;
+  background: #fff;
+  border-color: #d43e45;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff;
+  background: #f86d74;
+  border-color: #f86d74;
+}
+
+.ant-btn-link {
+  border: none;
+}
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-color: #f86d74;
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(248, 109, 116, 0.2);
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 5px;
+}
+
+.ant-input:hover {
+  border-color: #f86d74;
+  border-right-width: 1px !important;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+  border-color: #f86d74;
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: 0 0 0 2px #f86d742c;
+}
+
+main.ant-layout-content {
+  max-width: 1024px;
+  margin: 0 auto;
+  .ant-tabs {
+    overflow: visible;
+  }
+}
+
+.header-menu {
+  a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px;
+    color: #4d4d4d;
+    font-size: 14px;
+  }
+  small {
+    top: -10px;
+    right: -10px;
+    color: #ff6067;
+    padding: 3px;
+    font-weight: bold;
+  }
+}
+
+.ant-carousel .slick-dots li button {
+  background: #ff6067;
+  opacity: 0.65;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  background: #ff6067;
+  opacity: 1;
+}
+
+.ant-carousel .slick-slide img {
+  width: 100%;
+}
+
+.ant-carousel .slick-dots-bottom {
+  bottom: -20px;
+}
+
+.right-arrow-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+  &:hover {
+    span {
+      color: #ff6067;
+    }
+  }
+  span {
+    color: black;
+  }
+}
